@@ -1,5 +1,5 @@
 
-public class Account
+public class Account implements InterfaceAccount
 {
     double solde;
 
@@ -9,5 +9,10 @@ public class Account
 
 	public void setSolde(double solde) {
 		this.solde = solde ;
+	}
+	
+	public void virer()
+	{
+		
 	}
 }
